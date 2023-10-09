@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         <main className="flex min-h-screen flex-col">
           <div className="navbar bg-base-300">
             <div className="flex-1">
-              <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+              <a className="btn btn-ghost normal-case text-xl">NextJS</a>
             </div>
             <div className="flex-none">
               <ul className="menu menu-horizontal px-1">
