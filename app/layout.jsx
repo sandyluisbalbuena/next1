@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
               <a className="btn btn-ghost normal-case text-xl">NextJS</a>
             </div>
             <div className="flex-none">
-              <ul className="menu menu-horizontal px-1">
+              <ul className="menu menu-horizontal px-1 gap-1">
                 <li>
                   <Link href={'/'}>Home</Link>
                 </li>
@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
             </div>
           </div>
           
-          <div className='flex-1 m-5'>
+          <div className='flex-1 m-5 justify-center'>
             {children}
           </div>
           
